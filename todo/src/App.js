@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { count, length } from './number';
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Hello Word!</p>      
+        <p>count*length={count*length}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
